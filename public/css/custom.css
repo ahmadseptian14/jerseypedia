@@ -1,0 +1,60 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background-color: white;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.pilih-liga img {
+    max-height: 100px;
+}
+
+.pilih-liga .card {
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.products img {
+    max-height: 200px;
+}
+
+.products .card {
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.product .btn {
+    margin-top: 100px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.breadcrumb .active {
+    font-weight: bold;
+    color: black;
+}
+
+
+/* button */
+
+.btn-dark {
+    border-radius: 15px;
+}
+
+.gambar-product{
+    background-color: #f1f1f1;
+    border: 0;
+    border-radius: 20px;
+}
+
+
+/* breakpoints Desktop */
+
+@media (min-width: 992px) {}

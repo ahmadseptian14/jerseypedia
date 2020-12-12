@@ -1,0 +1,16 @@
+{
+    "compile-hero.disable-compile-files-on-did-save-code": true,
+    "emmet.includeLanguages": {
+        "php": "html"
+    },
+    "emmet.showExpandedAbbreviation": "always",
+    "html-css-class-completion.enableEmmetSupport": true,
+    "emmet.syntaxProfiles": {
+        "php": "html"
+    },
+    "files.associations": { "*.module": "php" }
+    
+}
+
+
+
