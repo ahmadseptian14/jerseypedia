@@ -54,6 +54,20 @@ body {
     border-radius: 20px;
 }
 
+.section-footer{
+    background-color: black;
+}
+.section-footer a{
+    color: whitesmoke;
+}
+
+.section-footer h5{
+    color: whitesmoke;
+}
+
+
+
+
 
 /* breakpoints Desktop */
 

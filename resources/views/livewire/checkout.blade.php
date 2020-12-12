@@ -21,14 +21,14 @@
         <div class="col-6">
             <h4>Informasi Pembayaran</h4>
             <hr>
-        <p>Untuk pembayaran silahkan anda transfer ke nomor rekening dibawah ini sebesar : <strong>Rp.{{number_format($total_harga)}}</strong></p>
-            <div class="media">
-            <img class="mr-3" src="{{url('assets/bri.png')}}" alt="Bank BRI" width="60">
-                <div class="media-body">
-                  <h5 class="mt-0">Bank BRI</h5>
-                   NO Rekening : 12645-89735-12741 atas nama <strong>Ahmad Septian</strong> 
+                <p>Untuk pembayaran silahkan anda transfer ke nomor rekening dibawah ini sebesar : <strong>Rp.{{number_format($total_harga)}}</strong></p>
+                <div class="media">
+                    <img class="mr-3" src="{{url('assets/bri.png')}}" alt="Bank BRI" width="60">
+                    <div class="media-body">
+                        <h5 class="mt-0">Bank BRI</h5>
+                        NO Rekening : 12645-89735-12741 atas nama <strong>Ahmad Septian</strong> 
+                    </div>
                 </div>
-              </div>
         </div>
         <div class="col-6">
             <h4>Informasi Pengiriman</h4>

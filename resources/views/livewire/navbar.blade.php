@@ -20,12 +20,14 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             @foreach ($ligas as $liga)
-                            <a class="dropdown-item" href="{{route('products.liga',$liga->id)}}">{{$liga->nama}}</a> @endforeach
-
-
+                            <a class="dropdown-item" href="{{route('products.liga',$liga->id)}}">{{$liga->nama}}</a>
+                             @endforeach
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{{route('products')}}">Semua Liga</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('history') }}">History</a>
                     </li>
                 </ul>
 

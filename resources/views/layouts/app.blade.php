@@ -33,12 +33,11 @@
     <div id="app">
 
         <livewire:navbar />
-        <main class="py-4">
+        <main>
             @yield('content')
             @include('includes.footer')
         </main>
     </div>
-    
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
